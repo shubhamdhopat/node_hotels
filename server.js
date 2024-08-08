@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.json());//req.body
 const PORT=process.env.PORT || 3000;//IF PORT VALUE IS PRESENT IN process.env.port then it will use that or by default it will used 3000
 
-app.get('/', function (req, res) {
+app.get('/', function (req, res) {c
   res.send('Welcome to this hotel....,we have list of menus');
 });
 
