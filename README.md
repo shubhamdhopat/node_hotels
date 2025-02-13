@@ -1,4 +1,4 @@
-# Node Hotels Backend
+# HotelEase Backend
 
 This is a backend API for a hotel management system built with Node.js, Express, Mongoose, and JWT authentication. It handles operations related to users, menu items, and authentication, and connects to a MongoDB database.
 
